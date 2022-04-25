@@ -7,7 +7,7 @@ public class Question5
     /*
      * Prompt the user for number. This input indicates the number of integers the user will be entering next. 
      * Print out the mode (highest occurrence) from the set of integers. 
-     *    e.g.
+     *    e.g
      *     > 5
      *     > 2
      *     > 4

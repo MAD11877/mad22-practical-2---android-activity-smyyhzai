@@ -7,7 +7,7 @@ public class Question4
     /*
      * Prints a right angle triangle with *. The base of the triangle
      * depends on the integer given.
-     *    e.g.
+     *    e.g
      *     > 5
      *     *****
      *     ****
@@ -23,11 +23,11 @@ public class Question4
     System.out.println("Enter an integer");
     int row = in.nextInt();
 
-    for(int i = row-1; i>0; i--){
+    for(int i = row-1; i>=0; i--){
       for(int j=0;j<=i;j++){
-        System.out.print("*" + "*");
+        System.out.print("*");
       }
+      System.out.println();
     }
-    System.out.println();
   }
 }
